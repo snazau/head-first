@@ -1,12 +1,12 @@
-package com.company;
+package com.company.Ducks;
 
 import com.company.interfaces.Flyable;
 import com.company.interfaces.Quackable;
 
-public class RedheadDuck extends Duck implements Flyable, Quackable {
+public class MallardDuck extends Duck implements Flyable, Quackable {
     @Override
     public void display() {
-        System.out.println("RedheadDuck specific display");
+        System.out.println("MallardDuck specific display");
     }
 
     @Override
@@ -17,6 +17,6 @@ public class RedheadDuck extends Duck implements Flyable, Quackable {
 
     @Override
     public void quack() {
-        System.out.println("RedheadDuck specific quack");
+        System.out.println("MallardDuck specific quack");
     }
 }
