@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Ducks;
 
 public class RubberDuck extends Duck{
     @Override
