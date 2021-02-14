@@ -9,10 +9,10 @@ public class CurrentConditionDisplay {
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;
-        display(this.temperature, this.humidity, this.pressure);
+        display();
     }
 
-    public void display(float temperature, float humidity, float pressure) {
+    public void display() {
         System.out.println("Current conditions: t=" + temperature + " h=" + humidity + " p=" + pressure);
     }
 }
