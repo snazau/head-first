@@ -9,7 +9,7 @@ public class WeatherData {
 
     private CurrentConditionDisplay currentConditionDisplay;
 
-    WeatherData(CurrentConditionDisplay currentConditionDisplay) {
+    public WeatherData(CurrentConditionDisplay currentConditionDisplay) {
         this.currentConditionDisplay = currentConditionDisplay;
     }
 
