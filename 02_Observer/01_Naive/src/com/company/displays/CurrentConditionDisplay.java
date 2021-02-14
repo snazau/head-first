@@ -1,4 +1,4 @@
-package com.company.Displays;
+package com.company.displays;
 
 public class CurrentConditionDisplay {
     private float temperature = 23;

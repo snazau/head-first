@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.Displays.CurrentConditionDisplay;
+import com.company.displays.CurrentConditionDisplay;
 
 public class Main {
     public static void main(String[] args) {

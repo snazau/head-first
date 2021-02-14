@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.Displays.CurrentConditionDisplay;
+import com.company.displays.CurrentConditionDisplay;
 
 public class WeatherData {
     private float temperature = 23;
