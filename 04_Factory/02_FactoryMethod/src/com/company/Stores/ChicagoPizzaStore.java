@@ -5,6 +5,7 @@ import com.company.Pizzas.ChicagoSomePizza;
 import com.company.Pizzas.Pizza;
 
 public class ChicagoPizzaStore extends PizzaStore {
+    @Override
     public Pizza createPizza(String type) {
         Pizza pizza = null;
 
