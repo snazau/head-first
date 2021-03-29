@@ -15,11 +15,11 @@ public class Stereo {
         System.out.println("Stereo is off");
     }
 
-    public void setCd() {
+    public void setCD() {
         System.out.println("Stereo: CD was set");
     }
 
-    public void setDvd() {
+    public void setDVD() {
         System.out.println("Stereo: DVD was set");
     }
 
