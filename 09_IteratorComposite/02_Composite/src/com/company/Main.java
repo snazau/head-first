@@ -183,5 +183,6 @@ public class Main {
         Waitress waitress = new Waitress(fullMenu);
 
         waitress.printMenu();
+        waitress.printVegetarianMenu();
     }
 }
