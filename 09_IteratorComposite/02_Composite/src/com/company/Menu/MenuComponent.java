@@ -1,5 +1,7 @@
 package com.company.Menu;
 
+import java.util.Iterator;
+
 public abstract class MenuComponent {
     public void add(MenuComponent menuComponent) {
         throw new UnsupportedOperationException();
@@ -27,4 +29,6 @@ public abstract class MenuComponent {
     public void print() {
         throw new UnsupportedOperationException();
     }
+
+    public abstract Iterator<MenuComponent> createIterator();
 }
