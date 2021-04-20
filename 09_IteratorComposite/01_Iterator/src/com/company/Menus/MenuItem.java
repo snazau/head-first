@@ -3,13 +3,13 @@ package com.company.Menus;
 public class MenuItem {
     String name;
     String description;
-    boolean vegeterian;
+    boolean vegetarian;
     double price;
 
     public MenuItem(String name, String description, boolean vegetarian, double price) {
         this.name = name;
         this.description = description;
-        this.vegeterian = vegetarian;
+        this.vegetarian = vegetarian;
         this.price = price;
     }
 
@@ -21,8 +21,8 @@ public class MenuItem {
         return description;
     }
 
-    public boolean isVegeterian() {
-        return vegeterian;
+    public boolean isVegetarian() {
+        return vegetarian;
     }
 
     public double getPrice() {
