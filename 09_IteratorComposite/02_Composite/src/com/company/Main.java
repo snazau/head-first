@@ -155,21 +155,30 @@ public class Main {
 
         cafeMenu.add(coffeeMenu);
 
-        coffeeMenu.add(new MenuItem(
+        coffeeMenu.add(
+            new MenuItem(
                 "Coffee Cake",
                 "Crumbly cake topped with cinnamon and walnuts",
                 true,
-                1.59));
-        coffeeMenu.add(new MenuItem(
+                1.59
+            )
+        );
+        coffeeMenu.add(
+            new MenuItem(
                 "Bagel",
                 "Flavors include sesame, poppyseed, cinnamon raisin, pumpkin",
                 false,
-                0.69));
-        coffeeMenu.add(new MenuItem(
+                0.69
+            )
+        );
+        coffeeMenu.add(
+            new MenuItem(
                 "Biscotti",
                 "Three almond or hazelnut biscotti cookies",
                 true,
-                0.89));
+                0.89
+            )
+        );
 
         Waitress waitress = new Waitress(fullMenu);
 
